@@ -1,0 +1,83 @@
+<!-- contact.html --><!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mari Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Mari Fitness</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="classes.html">Classes</a>
+            <a href="trainers.html">Trainers</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="membership.html">Membership</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header><section>
+    <h2>Contact Information</h2>
+    <p>Email: info@marifitness.com</p>
+    <p>Phone: +267 71234567</p>
+    <p>Address: 123 Fitness Street, Workout City</p>
+</section>
+ 
+<section>
+    <h2>Send Us a Message</h2>
+    <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+ 
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+ 
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+ 
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+ 
+<section>
+    <h2>Feedback</h2>
+    <form action="#" method="post">
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+ 
+        <label for="rating">Rate Your Experience (1-5):</label>
+        <select id="rating" name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+ 
+        <button type="submit">Submit Feedback</button>
+    </form>
+</section>
+ 
+<section>
+    <h2>Our Location</h2>
+    <div style="width: 100%">
+        <iframe
+            width="100%"
+            height="400"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=123+Fitness+Street,Workout+City" allowfullscreen>
+        </iframe>
+    </div>
+</section>
+ 
+</main>
+ 
+<footer>
+  <p>&copy; 2025 Mari Fitness. All rights reserved.</p>
+</footer>
+ 
+<script src="script.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
